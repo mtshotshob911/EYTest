@@ -5,7 +5,6 @@ process.argv.forEach((val, index) => {
    var inputVal = val.split(',');
    var stripped_input = inputVal.join('');
    var input_as_string = stripped_input.toString().substring(1,stripped_input.length-1);	
-   console.log(input_as_string);
    console.log(encodeInput(input_as_string));
   }
 
