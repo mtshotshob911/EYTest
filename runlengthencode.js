@@ -1,9 +1,9 @@
-process.argv.forEach((val, index) => {
-
-  if(index === 2){
-      console.log(encodeInput(val));
-  }
-
+process.argv.forEach(function (val, index) {
+	if(index === 2){
+	  var inputval = val;
+	  console.log(flatten(inputval));
+	}
+	
 });
 
 function encodeInput(input) {
