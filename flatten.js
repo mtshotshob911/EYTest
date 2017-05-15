@@ -1,5 +1,5 @@
 const flatten = list => list.reduce(
-    (a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []
+    (firsEntry, secondEntry) => firsEntry.concat(Array.isArray(secondEntry) ? flatten(secondEntry) : secondEntry), []
 );
 
 process.argv.forEach((val, index) => {
