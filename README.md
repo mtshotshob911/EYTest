@@ -14,7 +14,7 @@ https://nodejs.org/en/download/package-manager/ for linux distributions
   
 
 ## Project structre
-This project consists of a single folder with 3 files namely palidrone.js , flatten.js and runlenthencode.js. They correspond to question 1, 2 and 3 respectivley.
+This project consists of a single folder with 3 files namely palidrone.js , flatten.js and run_length_encode.js. They correspond to question 1, 2 and 3 respectivley.
 
 ## executing the solutions
 
