@@ -13,7 +13,7 @@ https://nodejs.org/en/download/package-manager/ for linux distributions
   Make sure that node is available on our path. This is easily verifiable by running the comand  node --version on your terminal.
   
 
-## Project structre
+## Project structure
 This project consists of a single folder with 3 files namely palidrone.js , flatten.js and run_length_encode.js. They correspond to question 1, 2 and 3 respectivley.
 
 ## executing the solutions
