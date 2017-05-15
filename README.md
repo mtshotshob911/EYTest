@@ -1,6 +1,6 @@
 # EYTest
 
-# Prerequisites for this project
+# Pre-requisites for this project
 
 This project leverages node.js and  you need to install node.js on your machine. Instructions on how to install node.js can be found on
 
