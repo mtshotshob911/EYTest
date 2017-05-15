@@ -1,10 +1,14 @@
-const flatten = list => list.reduce(
-    (firsEntry, secondEntry) => firsEntry.concat(Array.isArray(secondEntry) ? flatten(secondEntry) : secondEntry), []
+let foo = arr => arr.reduce(
+    	  (callback, initialValue) => callback.concat(
+	     Array.isArray(initialValue) ? foo(initialValue) : initialValue
+	  ), 
+	  []
 );
 
 process.argv.forEach((val, index) => {
   if(index === 2){
-      console.log(val);
-      flatten(val);
-  }
-});
+     var inputVal = [val];
+     var stripped_input = inputVal.join('');
+     console.log(foo(stripped_input));
+   }
+  });
