@@ -2,9 +2,9 @@
 
 # Pre-requisites for this project
 
-This project leverages node.js and  you need to install node.js on your machine. Instructions on how to install node.js can be found on
+This project leverages node.js and so, you need to install node.js on your machine. Instructions on how to install node.js can be found on
 
-https://nodejs.org/en/download/package-manager/ for linux distributions 
+https://nodejs.org/en/download/package-manager/ for linux distributions  (i.e for linux distributions)
 
                       and for windows
                       
